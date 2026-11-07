@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "osu2yt",
+      "runtimeExecutable": ".venv/Scripts/python.exe",
+      "runtimeArgs": ["-m", "osu2yt", "serve", "--no-browser"],
+      "port": 8765,
+      "url": "http://127.0.0.1:8765"
+    },
+    {
+      "name": "osu2yt-alt",
+      "runtimeExecutable": ".venv/Scripts/python.exe",
+      "runtimeArgs": ["-m", "osu2yt", "serve", "--no-browser", "--port", "8766"],
+      "port": 8766,
+      "url": "http://127.0.0.1:8766"
+    }
+  ]
+}

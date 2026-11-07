@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>osu2yt</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/library">osu<span>2</span>yt</a>
+    <nav class="nav">
+      <a href="#/library" data-nav="library">ライブラリ</a>
+      <a href="#/sync" data-nav="sync">同期</a>
+      <a href="#/history" data-nav="history">履歴</a>
+      <a href="#/settings" data-nav="settings">設定</a>
+    </nav>
+    <div class="topbar-right">
+      <a id="playlist-pill" class="pill" href="#/settings" title="使用中のプレイリスト">プレイリスト未選択</a>
+      <span id="quota-pill" class="pill" title="本日の YouTube API クォータ">クォータ —</span>
+    </div>
+  </header>
+  <div id="jobbar" class="jobbar" hidden></div>
+  <main id="view" class="view"></main>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <script type="module" src="/static/app.js"></script>
+</body>
+</html>

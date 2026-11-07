@@ -1,0 +1,17 @@
+# runtime data: database, OAuth client secret and tokens, realm copies
+data/
+client_secret*.json
+token*.json
+
+# .NET helper build output
+helper/**/bin/
+helper/**/obj/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
